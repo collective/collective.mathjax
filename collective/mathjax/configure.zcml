@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.mathjax">
+
+  <browser:resourceDirectory
+      name="collective.mathjax.resources"
+      directory="resources" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.mathjax: default"
+      directory="profiles/default"
+      description="collective.mathjax default profile: Registers the resources."
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+</configure>
