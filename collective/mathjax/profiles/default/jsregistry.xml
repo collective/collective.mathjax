@@ -7,7 +7,7 @@
       cookable="True"
       enabled="True"
       expression=""
-      id="++resource++collective.mathjax/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      id="++resource++collective.mathjax.resources/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
       inline="False"
       />
 
