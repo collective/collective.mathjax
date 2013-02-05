@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts" meta_type="JavaScripts Registry">
 
-  <!-- cookable false, since ResourceRegistry thinks, it cannot find the
-       resource because of the URL parameter. Apparently it's there. By not
-       cooking the reource, the browser can fetch it. -->
+  <!-- cacheable and cookable false, since ResourceRegistry thinks, it cannot 
+       find the resource because of the URL parameter. Apparently it's there.
+       By not cooking the reource, the browser can fetch it. -->
   <javascript
       insert-after="*"
-      cacheable="True"
+      cacheable="False"
       compression="none"
       cookable="False"
       enabled="True"
